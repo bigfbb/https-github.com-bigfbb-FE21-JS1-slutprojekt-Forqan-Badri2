@@ -1,0 +1,64 @@
+*{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+
+}
+
+.AllIn{
+display: flex;
+justify-content: center;
+}
+
+.dayOneDiv,.carousel-inner{
+    background-color:#b8b9c5;
+    
+}
+
+.välkomna{
+    color: cornsilk;
+    font-size: x-large;
+}
+
+body{
+background-image:url(./imagg/blue.jpg);
+}
+
+
+img{
+    width: 50vw;
+}
+
+.dayOneDiv{
+    border-bottom: rgb(84, 9, 224) solid 4px;
+    width: 35vw;
+    border-radius: 10%;
+
+}
+
+.carousel-inner{
+justify-content: center;
+width: 45vw;
+border-radius: 10%;
+
+}
+
+input,button{
+    border-radius: 20% 20%  ;
+
+}
+
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background-color: rgb(122, 78, 78);
+    filter:invert(40%);
+    filter:opacity(20%);
+    display: none;
+}
+
+.searchingDiv{
+    display: flex;
+    font-size: small;
+}
+
